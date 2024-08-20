@@ -30,8 +30,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
 
 ### Database Tables
 
-![er_diagram](https://github.com/user-attachments/assets/901812e3-4648-4b4c-9088-7841dbfef786)
-
+![er_diagram](https://github.com/clmnik/CineData-ETL-Pipeline/blob/master/docs/er_diagram.png)
 
 - **Movies Table**: Stores details about movies such as their title, release date, popularity, and votes.
 - **Genres Table**: Contains a list of unique movie genres.
