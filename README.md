@@ -16,25 +16,6 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
 - **Environment Variables**: Configurations (e.g., API keys) are managed securely using environment variables.
 - **3NF Database Design**: Ensures that the data stored in the database follows proper normalization rules to reduce redundancy and ensure data integrity.
 
-## Project Structure
-
-```bash
-CineData-ETL/
-│
-├── scripts/                     
-│   └── etl.py                   # Main ETL script
-│
-├── config/                      
-│   └── config.env               # Environment configuration file (contains API_KEY)
-│
-├── logs/                        
-│   └── etl_pipeline.log         # Log file for the ETL pipeline
-│
-├── requirements.txt             # File listing the required Python packages for the project
-│
-└── README.md                    # Project documentation explaining the setup and usage
-
-```
 
 ### ETL Process Overview
 
@@ -48,6 +29,9 @@ CineData-ETL/
     - The tables are created if they do not already exist, and only new records are inserted to prevent duplication.
 
 ### Database Tables
+
+![er_diagram](https://github.com/user-attachments/assets/901812e3-4648-4b4c-9088-7841dbfef786)
+
 
 - **Movies Table**: Stores details about movies such as their title, release date, popularity, and votes.
 - **Genres Table**: Contains a list of unique movie genres.
