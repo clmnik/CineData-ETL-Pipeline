@@ -56,8 +56,8 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
 2. Create a virtual environment and install dependencies:
 
    ```bash
-   cd cinedata-etl
-   python3 -m venv venv
+   cd cinedata-etl-pipeline
+   python -m venv venv
    source venv/bin/activate  # For Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
@@ -77,7 +77,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
 5. Run the ETL pipeline:
 
    ```bash
-   python etl.py
+   scripts/python etl.py
    ```
 
 ### Logging
