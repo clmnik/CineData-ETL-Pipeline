@@ -41,7 +41,7 @@ coverage.xml
 .DS_Store
 
 # Environment files
-
+/config/config.env
 
 # Logs
 logs/
