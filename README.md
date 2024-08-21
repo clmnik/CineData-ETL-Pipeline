@@ -58,7 +58,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
    ```bash
    cd cinedata-etl-pipeline
    python -m venv venv
-   source venv/bin/activate  # For Windows: venv\Scripts\activate
+   source venv/Scripts/activate  
    pip install -r requirements.txt
    ```
 
