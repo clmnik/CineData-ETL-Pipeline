@@ -62,7 +62,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
    pip install -r requirements.txt
    ```
 
-3. Set up your `.env` file in the `config/` directory and provide your TMDb API key:
+3. Open the `.env` file located in the `config/` directory and replace the placeholder with your actual TMDb API key:
 
    ```
    API_KEY=your_tmdb_api_key
