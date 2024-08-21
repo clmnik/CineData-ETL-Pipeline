@@ -84,12 +84,6 @@ This project implements an ETL (Extract, Transform, Load) pipeline to collect an
 
 The pipeline logs key activities and errors to a log file located in the `logs/` directory (`etl_pipeline.log`). This helps in monitoring the ETL process and troubleshooting any issues that arise during data extraction, transformation, or loading.
 
-## Concepts and Data Design
-
-- **Third Normal Form (3NF)**: The database is designed to eliminate redundancy and ensure efficient querying by separating movies, genres, and their many-to-many relationships.
-- **Error Handling**: The pipeline includes error checks for HTTP responses and validation of critical data fields, ensuring that only clean and correct data is loaded into the database.
-- **Data Validation**: The pipeline ensures that movies have essential fields (e.g., title, release date), correct formats (e.g., valid date formats), and numeric fields (e.g., vote average and count).
-
 ## Future Improvements
 
 - Automate the ETL process with Apache Airflow for better scheduling and error-handling. 
